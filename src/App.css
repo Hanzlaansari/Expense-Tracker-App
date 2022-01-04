@@ -36,3 +36,188 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: #f7f7f7;
+}
+.main {
+  width: 400px;
+  height: 700px;
+  margin: 0 auto;
+}
+/* header section */
+.header {
+  width: 100%;
+  height: 60px;
+}
+.header-p {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 15px;
+}
+/* balance section */
+.balance {
+  width: 100%;
+  height: 200px;
+}
+.balance-p1 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+.show-balance {
+  width: 100%;
+  background-color: white;
+  height: 70px;
+  padding: 10px 0px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: flex;
+  padding-bottom: 20px;
+}
+.income-balance {
+  width: 50%;
+  flex-direction: row;
+  height: 80px;
+  border-right: 1px solid #bbbbbb;
+}
+.expense-balance {
+  width: 50%;
+  flex-direction: row;
+  height: 80px;
+}
+.income-balance-p {
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.expense-balance-p {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* transaction history */
+.history {
+  width: 100%;
+  min-height: 100px;
+}
+.history-p1,.add-trans-p1 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.t-history {
+  width: 95%;
+  background-color: white;
+  min-height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  margin: 13px 0px;
+  position: relative; 
+}
+.t-history-p1 {
+  font-size: 15px;
+  color: black;
+}
+.t-history-p2 {
+  font-size: 15px;
+  color: black;
+}
+.span {
+  width: 7px;
+  height: 50px;
+  background-color: green;
+}
+.del-btn{
+  cursor: pointer;
+  border: 0;
+  color: black;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 18%;
+  left: -9%;
+  opacity: 0;
+  background-color: none;
+  background: none;
+}
+.t-history:hover .del-btn{
+  opacity: 1;
+}
+
+/* add transaction */
+.addTrans{
+  width: 100%;
+  height: 300px;
+
+}
+.label{
+  margin-top: 20px;
+  float: left;
+}
+.text{
+  width: 97%;
+  margin-top: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+height: 50px;
+border: none;
+padding-left: 10px;
+}
+.submit-btn{
+  width: 100%;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: blue;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:375px) {
+
+  .main {
+    width: 300px;
+    height: 700px;
+    margin: 0 auto;
+  }
+  .header-p{
+    font-size: 25px;
+  }
+  .balance-p1{
+    font-size: 18px;
+  }
+  .income-balance-p,.expense-balance-p,.history-p1,.add-trans-p1,.submit-btn{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:320px) {
+
+  .main {
+    width: 275px;
+    height: 700px;
+    margin: 0 auto;
+  }
+  .header-p{
+    font-size: 25px;
+  }
+  .balance-p1{
+    font-size: 18px;
+  }
+  .income-balance-p,.expense-balance-p,.history-p1,.add-trans-p1,.submit-btn{
+    font-size: 18px;
+  }
+}
