@@ -14,7 +14,7 @@ Expense-Tracker-App is developed in Reactjs using ContextApi and useReducer Hook
 
 ###  Hosted
 
-Expense-Tracker-App is hosted on Surge.sh hosting. Please click to the below link to reacged at App.
+Expense-Tracker-App is hosted on Surge.sh hosting. Please click to the below link to reached at App.
 
 [Expense-Tracker-App](https://expense-tracker-app-hanzladev.surge.sh/)
 
